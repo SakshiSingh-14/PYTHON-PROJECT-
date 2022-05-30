@@ -1,0 +1,4 @@
+uniqueVals = list(sorted({val2 for val1 in D1.values() for val2 in val1 }))
+ 
+#list of unique values
+print("The unique values of the given dictionary are:", uniqueVals)
